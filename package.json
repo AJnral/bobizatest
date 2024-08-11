@@ -9,7 +9,7 @@
     "src": "src",
     "plugins": "plugins"
   },
-    "scripts": {
+  "scripts": {
     "start": "node index.js",
     "qr": "node index.js qr",
     "code": "node index.js code",
@@ -95,7 +95,12 @@
     "yargs": "^17.3.1",
     "instagram-url-direct":"*",
     "yt-search": "^2.10.3",
-    "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
+    "ytdl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2",
+    "uuid": "^8.3.2", 
+    "rimraf": "^4.0.1",
+    "glob": "^9.1.2",
+    "gauge": "^2.7.4",
+    "npmlog": "^4.1.4"
   },
   "devDependencies": {
     "eslint": "^8.45.0",
